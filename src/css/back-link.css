@@ -2,10 +2,14 @@
   position: relative;
   display: inline-block;
   padding: 4px 8px;
-  margin-top: 32px;
+  margin: 32px 0 20px 20px;
+
   border: 1px solid;
   border-radius: 8px;
+  width: 70px;
+  justify-content: center;
 }
+
 .back-link::before {
   content: '';
   position: absolute;

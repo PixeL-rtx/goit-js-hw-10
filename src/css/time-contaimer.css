@@ -1,0 +1,37 @@
+.time-contaimer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.timer {
+  display: flex;
+
+  justify-content: center;
+  margin-top: 15px;
+
+  gap: 10px;
+}
+.field {
+  max-width: 360px;
+  flex-wrap: wrap;
+}
+.value {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #6e6f85;
+}
+.label {
+  display: block;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #6e6f85;
+  text-transform: uppercase;
+}
