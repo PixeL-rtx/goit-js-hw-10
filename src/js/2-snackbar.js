@@ -11,7 +11,7 @@ function submitForm(event) {
   const state = event.target.elements.state.value;
   const delay = Number(event.target.elements.delay.value);
   const promise = new Promise((resolve, reject) => {
-    setInterval(() => {
+    setTimeout(() => {
       if (state === 'fulfilled') {
         resolve(delay);
       } else {
